@@ -1,0 +1,9 @@
+
+# gulp + broswer-sync
+*node_modules/
+*node_modules/**
+*package.json
+*gulpfile.js
+*npm-debug.log
+./.gitignore
+pom.xml
