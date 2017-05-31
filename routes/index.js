@@ -5,7 +5,7 @@ var cheerio = require('cheerio')
 /* GET home page. */
 router.get('/', function(req, res, next) {
   	// res.render('index', { title: 'Express' });
-	request('https://www.zhihu.com/explore', function (error, response, body) {
+	request('http://www.hao123.com/book', function (error, response, body) {
 		$ = cheerio.load(body);
 		var title = $('title').text();
 		var len = $('.recommend-feed a').length;
